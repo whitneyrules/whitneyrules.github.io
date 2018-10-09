@@ -55,3 +55,16 @@ section.elle-3 {
 section.elle-4 {
     background-image: url(elle-04.jpg);
 }
+
+@media (max-width: 600px) {
+    header {
+        top: 50px;
+    }
+    footer {
+    bottom: 10px;
+    left: 10px;
+    }
+}
+section {
+    background-attachment: scroll;
+}
